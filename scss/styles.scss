@@ -1,0 +1,196 @@
+@import './include';
+
+header {
+  border-bottom: 1px solid #ededed;
+}
+
+.max-w-1106 {
+  position: relative;
+  max-width: 1106px;
+}
+/* #logo 영역 */
+.absolute {
+  position: absolute;
+}
+
+.top-1\/2 {
+  top: 50%;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
+.-translate-y-1\/2 {
+  transform: translateY(-50%);
+}
+
+/* 로고 이미지 */
+.w-82px {
+  display: block;
+  width: 82px;
+}
+
+.h-12 {
+  height: 3rem; /* 48px */
+}
+
+.bg-logo {
+  background-image: url('../images/logo.svg');
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.block {
+  display: block;
+}
+
+/* 네비게이션 메뉴 */
+.hidden {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+}
+
+.max-w-800 {
+  max-width: 800px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.h-54 {
+  height: 55px;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.text-body-sm {
+  font-size: 0.875rem; /* 14px */
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.text-black {
+  color: #000;
+}
+
+.text-gray-1 {
+  color: #999;
+}
+
+/* NavRight 영역 */
+.NavRight__NavRightStyled-sc-a74ed61f-0 {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  button,
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+  }
+  .alarm {
+    img {
+      width: 26px;
+    }
+  }
+}
+
+.myAvatar__StyledMyAvatar-sc-c454dd4c-0 span {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #f3f3f3;
+  width: 26px;
+  height: 26px;
+  position: relative;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.inset-0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+/* 공통 */
+.ml-auto {
+  margin-left: auto;
+}
+
+.-mr-1 {
+  margin-right: -0.25rem;
+}
+
+/* 검색 및 알림 버튼 */
+.search {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+}
+
+.alarm {
+  /* 스타일 추가 가능 */
+}
+
+.blind {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
